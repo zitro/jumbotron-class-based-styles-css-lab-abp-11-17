@@ -15,7 +15,7 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
-header nav { 
+header nav {
   float: right;
 }
 
@@ -55,4 +55,3 @@ h3#header {
   padding: 10px;
   text-align: center;
 }
-
