@@ -38,7 +38,7 @@ RSpec.describe "Styling the Jumbotron with class selectors" do
     expect(jumbotron_h1["font-size"]).to match(/60\s?px/i)        
   end
 
-  it 'styles paragraphs in a jumbotron with a font of 20px, a 40px left right padding, and a line height of 40px via a nested class element selector of ".jumbotron p"' do
+  it 'styles paragraphs in a jumbotron with a font-size of 20px, a 40px left right padding, and a line height of 40px via a nested class element selector of ".jumbotron p"' do
     css = parse_css_from_file("./style.css")
     jumbotron_p = css[".jumbotron p"]
 
